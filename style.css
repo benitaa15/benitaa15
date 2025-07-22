@@ -609,7 +609,14 @@ display: block;
    
     }
     .basic button{
-        text-align: center;
+         padding: 10px;
+            background-color: rgb(5, 5, 247);
+            border-radius: 10px;
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            width: 130px;
+            text-align: center;
     }
     .sidebar button{
         padding-top: 10px;
