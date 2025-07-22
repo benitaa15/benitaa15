@@ -648,6 +648,11 @@ display: block;
         display: none;
 
     }
+    .girl img{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
     .main img{
         padding-top: 50px;
     }
