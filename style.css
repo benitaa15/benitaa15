@@ -493,6 +493,9 @@
    
     margin: 0 auto;
    }
+   .girl img{
+    display: none;
+   }
     .accordion-item-header{
     padding: 30px;
     min-height: 3.5rem;
@@ -599,12 +602,7 @@ display: block;
     .started{
         width: 350px;
     }
-    .free button{
-        flex-direction: column;
-    }
-    .pro button{
-        flex-direction: column;
-    }
+    
      .app img{
         width: 80%;
 
@@ -649,8 +647,7 @@ display: block;
     .features button{
         text-align: center;
 }
-.basic button{
-     text-align: center;
+
     
 
 }
