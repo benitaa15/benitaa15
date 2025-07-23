@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
             margin: 0;
             padding: 0;
+            font-family: 'Poppins', serif;
         }
         body{
             min-height: 100vh;
         }
       .energy button{
         width: 150px;
-        
         padding: 10px;
         border-radius: 5px;
         border: 2px white;
@@ -15,23 +16,13 @@
         font-weight:500;
         background-color: #f0f0f0;
         justify-content: center;
-        
         margin: 0 auto;
         cursor: pointer;
-
-       
-       
-       
-
-
         }
+
         .energy{
              margin: 20px;
         }
-        
-
-
-    
         
         svg{
             width: 35%;
@@ -39,46 +30,34 @@
            margin: 0 auto;
            justify-content: center;
         }
-        nav{
-           
-            
-           
 
-        }
         nav ul{
             display: flex;
             justify-content: flex-end;
             align-items: center;
             width: 99%;
-            list-style: none;
-           
-           
-            
+            list-style: none;    
         }
+
          nav li{
-             height: 50px;
-          
-            
-            
+             height: 50px;        
         }
+
         .energy img{
             margin-right: auto;
-            width: 20%;
-           
+            width: 20%;   
         }
+
         nav  a{
             text-decoration: none;
             color: rgb(10, 10, 10);
             font-size: 1.2rem;
-            padding: 0 30px;
-           
+            padding: 0 30px;   
             font-weight: bold;
-            font-family: 'Lato, sans-serif';
             padding-right: 0;
             height: 100%;
             display: flex;
             align-items: center;
-
         }
          .ment img{
             width: 50%;
@@ -88,11 +67,6 @@
             display: none;
          }
            
-
-            
-        
-       
-        
          .sidebar{
             display: none;
             position: fixed;
@@ -111,7 +85,6 @@
          }
          .sidebar img{
             width: 10%;
-           
          }
          .sidebar li{
             width: 100%;
@@ -125,26 +98,29 @@
             justify-content: flex-start;
             align-items: flex-start;
             padding-left: 0;
-            
             margin-left: 0;
             margin-top: 10px;
          }
         
-         
+         main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+         }
+
          .main h1{
             font-size: 3em;
-        font-family:Roboto
+            font-family: "Roboto";
          }
+
          .main{
             margin: 20px;
             padding: 20px;
            
-           
-
          }
          .main p{
             font-size: 1.3rem;
-            font-family: nova-square;
          }
          .main button{
             padding: 15px;
@@ -153,14 +129,15 @@
             color: white;
             font-size: 1.1rem;
             cursor: pointer;
+            border: none;
          }
          .books button{
             background-color:rgb(244, 237, 237);
-         color: black;
-         font-size: 1.1rem;
-          cursor: pointer;
-          border: 2px solid white;
-           font-family: nova-square;
+            color: black;
+            font-size: 1.1rem;
+            cursor: pointer;
+            border: 2px solid white;
+            border: none;
 
          }
          .book{
@@ -170,7 +147,6 @@
             margin-bottom: 0;
             padding-bottom: 0;
            
-
          }
          .dog{
             background-color: white;
@@ -190,12 +166,11 @@
             color: white;
             text-align: center;
             font-size: 1.3em;
-             padding-top: 20px;
-             padding-bottom: 20px;
-             width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 100%;
         }
         .app img{
-           
             width: 60%;
             padding-top: 20px;
         }
@@ -204,6 +179,7 @@
         }
         .our{
             padding-top: 20px;
+            font-size: 1.7rem;
         }
         
         
@@ -214,22 +190,19 @@
             color: white;
             font-size: 1.1rem;
             cursor: pointer;
+            border: none;
             
         }
         .work{
             padding-top: 20px;
-
         }
         .hear h2{
-            font-size: 2.1em;
+            font-size: 1.7em;
             justify-content: flex-start;
             align-items: flex-start;
             color: white;
-            padding-left: 50px;
+            padding-left: 35px;
             font-weight: bold;
-             font-family: nova-square;
-           
-
         }
 
         .hear{
@@ -241,63 +214,54 @@
             display: flex;
             gap: 20px;
             justify-content: space-around;
-           margin: 20px;
-           padding: 20px;
+            margin: 20px;
+            padding: 20px;
         }
        .box1{
         background-color: white;
         padding: 20px;
         margin: 10px;
         border-radius: 10px;
-        
-        
        }
        .box h4{
          padding-top: 20px;
-        margin-top: 20px;
-        font-size: 1.2rem;
-         font-family: nova-square;
-        
+         margin-top: 20px;
+         font-size: 1.2rem;
+         font-family: "Figtree";
 
        }
        .box strong{
         font-weight: bold;
-         font-family: nova-square;
-       
+       }
+       .box p{
+        font-family: "Bruno Ace";
        }
        .box h3{
       font-size: 1.3rem;
       font-weight: normal;
-       font-family: nova-square;
        }
        .pricing{
         background-color:white;
         text-align: center;
-         border-radius: 0px;
-         
-        
-       
-        
+        border-radius: 0px;
        }
        .pricing h4{
         font-size:2.3em;
         padding: 20px;
         margin: 20px;
-         font-family: nova-square;
-       font-weight: 100;
+        font-family: "Bruno Ace";
+        font-weight: 300;
        }
       
        .pricing p{
-       margin: 20px;
-        font-family: nova-square;
+        margin: 10px;
         font-size: 1.5rem;
        }
        .basic{
         display: flex;
         padding: 20px;
         margin: 20px;
-        
-         justify-content: center;
+        justify-content: center;
         margin: 0 auto;
         
        }
@@ -314,20 +278,16 @@
         border-radius: 20px;
          max-width: 300px;
        
-        
        }
        .pro{
- border: 2px solid rgb(1, 1, 1);
+        border: 2px solid rgb(1, 1, 1);
         padding: 20px;
         margin: 20px;
         background-color: rgb(8, 8, 8);
         border-radius: 10px;
         color: white;
-       max-width: 300px;
-
-
-       
-        
+        max-width: 300px;
+    
        }
         .features img{
         width: 17px;
@@ -340,15 +300,12 @@
         padding: 20px;
         font-family:'Courier New', Courier, monospace;
         padding-top: 30px;
-         font-family: nova-square;
-        
 
        }
        .basic p{
         padding-top: 0;
         text-align: start;
         font-size: 1.4rem;
-         font-family: nova-square;
         
        }
        .basic strong{
@@ -363,7 +320,7 @@
             cursor: pointer;
             width: 200px;
             text-align: center;
-
+            border: none;
        }
        .premium button{
         text-align: center;
@@ -386,37 +343,32 @@
         background-color: white;
         color: rgb(10, 10, 10);
         font-size: 1.2rem;
-         font-family:nova-square;
-        font-weight:100;
+        font-weight: 400;
        }
-       .usd{
+       /* .usd{
        margin-bottom:  20px;
-       }
+       } */
        .asked h1{
-        text-align: center;
-        font-size: 1.9em;
+         text-align: center;
+         font-size: 1.9em;
          padding-bottom: 20px;
-         font-family:nova-square;
-         font-weight: 100;
+         font-weight: 700;
 
        }
        .asked{
-        padding-top: 10px;
+          padding-top: 25px;
           padding-bottom: 30px;
        }
        .started{
         display: flex;
         background-color: rgb(239, 231, 231);
         padding: 10px;
-        
-         justify-content:center;
+        justify-content:center;
         align-items: center;
         width: 400px;
         margin: 0 auto;
-       
         border-radius: 15px;
         cursor: pointer;
-      
        
        }
        .started li{
@@ -424,7 +376,6 @@
         padding: 20px;
         font-size: 1.2rem;
         font-weight: bold;
-       
        
        }
        .amen{
@@ -434,7 +385,6 @@
          color: white;
        font-weight: bold;
        cursor: pointer;
-      
          
        }
        footer{
@@ -444,10 +394,8 @@
        }
     .footer img{
         padding-top: 20px;
-       
         color: rgb(248, 247, 247);
         width: 30%;
-    
         
     }
     
@@ -553,6 +501,8 @@ display: block;
        .menu-button{
         display: none;
        }
+
+
       @media (max-width:768px){
         .hideOnMobile{
             display:none;
@@ -560,22 +510,25 @@ display: block;
          body{
             margin: 0;
          }
-            
-       
         
         .menu-button{
         display: flex;
         }
 
+        main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .main{
             margin: 0;
+            display: flex;
             flex-direction: column;
+            align-items: center;
         }
         .energy img{
             margin-right: auto;
             width: 40%;
-        
-        
       }
        .book{
         flex-direction: column;
@@ -592,7 +545,6 @@ display: block;
     }
     .app{
         margin: 0;
-
     }
     .box{
         margin: 0;
@@ -644,9 +596,7 @@ display: block;
     .main{
         justify-content: center;
         align-items: center;
-        text-align: center;
-       
-       
+        text-align: center;       
     }
     .book button{
          width: 300px;
