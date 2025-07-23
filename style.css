@@ -493,9 +493,7 @@
    
     margin: 0 auto;
    }
-   .girl img{
-    display: none;
-   }
+   
     .accordion-item-header{
     padding: 30px;
     min-height: 3.5rem;
@@ -506,6 +504,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      
     }
+    .girl img{
+    display: none;
+   }
 
    
   
@@ -649,7 +650,7 @@ display: block;
 
     }
     .girl img{
-        display: flex;
+        display: block;
         justify-content: center;
         margin: 0 auto;
     }
