@@ -133,7 +133,7 @@
          
          .main h1{
             font-size: 3em;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family:Roboto
          }
          .main{
             margin: 20px;
@@ -144,6 +144,7 @@
          }
          .main p{
             font-size: 1.3rem;
+            font-family: nova-square;
          }
          .main button{
             padding: 15px;
@@ -159,6 +160,7 @@
          font-size: 1.1rem;
           cursor: pointer;
           border: 2px solid white;
+           font-family: nova-square;
 
          }
          .book{
@@ -225,7 +227,7 @@
             color: white;
             padding-left: 50px;
             font-weight: bold;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-family: nova-square;
            
 
         }
@@ -254,22 +256,25 @@
          padding-top: 20px;
         margin-top: 20px;
         font-size: 1.2rem;
+         font-family: nova-square;
         
 
        }
        .box strong{
         font-weight: bold;
+         font-family: nova-square;
        
        }
        .box h3{
       font-size: 1.3rem;
       font-weight: normal;
-      font-family:
+       font-family: nova-square;
        }
        .pricing{
         background-color:white;
         text-align: center;
          border-radius: 0px;
+         
         
        
         
@@ -278,13 +283,13 @@
         font-size:2.3em;
         padding: 20px;
         margin: 20px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+         font-family: nova-square;
        font-weight: 100;
        }
       
        .pricing p{
        margin: 20px;
-       
+        font-family: nova-square;
         font-size: 1.5rem;
        }
        .basic{
@@ -335,6 +340,7 @@
         padding: 20px;
         font-family:'Courier New', Courier, monospace;
         padding-top: 30px;
+         font-family: nova-square;
         
 
        }
@@ -342,6 +348,7 @@
         padding-top: 0;
         text-align: start;
         font-size: 1.4rem;
+         font-family: nova-square;
         
        }
        .basic strong{
@@ -379,7 +386,7 @@
         background-color: white;
         color: rgb(10, 10, 10);
         font-size: 1.2rem;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+         font-family:nova-square;
         font-weight:100;
        }
        .usd{
@@ -389,7 +396,7 @@
         text-align: center;
         font-size: 1.9em;
          padding-bottom: 20px;
-         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         font-family:nova-square;
          font-weight: 100;
 
        }
@@ -650,7 +657,7 @@ display: block;
 
     }
     .girl img{
-        display: block;
+        display: blockF;
         justify-content: center;
         margin: 0 auto;
     }
